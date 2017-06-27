@@ -1,11 +1,26 @@
-<!DOCKTYPE html>
-<html lang="en-US">
-<body background = "C:\Users\Student15\Desktop\YZX96p.jpg">
+<!DOCTYPE html>
+<html>
+<body>
 
-<h1>KAI JOSEPH'S ALL ABOUT ME</h1>
-<p style="font-size:56px<h1 style= "white">;KAI JOSEPH'S ALL ABOUT ME</p>
-<p>I AM 16 YEARS OLD,AND I WILL BE A SENIOR AT ROCKDALE HIGH SCHOOL.</P>
+<h2>JavaScript Confirm Box</h2>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("To make sure your a human press OK") == true) {
+        txt = "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
 
 </body>
 </html>
-			
+
